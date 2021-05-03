@@ -3,9 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Dependencies
-yarn - 1.22.5
-npm install -g yarn
-yarn add axios @types/axios
+yarn - 1.22.5 <br>
+npm install -g yarn <br>
+yarn add axios @types/axios <br>
 ## Running the Project
 
  Clone this repository <br>
