@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+@media (max-width: 1080px){
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px){
+    html {
+        font-size: 87.5%;
+    }
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    background: url('https://i.pinimg.com/originals/1c/a6/e1/1ca6e1c35e2d884230242cc0326dbf28.jpg') no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    margin: 2em 2em;
+}
+
+.greetings{
+    text-align: center;
+    margin-bottom: 0.5em;
+    line-height: 3em;
+}
+
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18em;
+
+    margin: auto;
+    padding: 1em;
+
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #F5F5F5
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 0.5em;
+
+    width: 2em;
+    height: auto;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+
+.types{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-bottom: 0.8em;
+
+    height: 3em;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 1.5em;
+    padding: 0 0.5em;
+}
+
+.types >p {
+    margin-bottom: 0.5em;
+}
+
+.typesContent{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18em;
+}
+
+.stats >p {
+    margin-bottom: 0.5em;
+}
+
+.statsContent{
+    display: grid;
+    grid-template-columns: 9em 9em;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    border: 0;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a {
+    
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 0.5s linear infinite;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+h2 {
+    
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 0.5s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+            #000000, #000000);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+            #000000, #000000);
+        -webkit-background-clip: text;
+    }
+}
